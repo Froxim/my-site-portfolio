@@ -21,6 +21,7 @@ body {
     align-items: center;
     background-color: black;
     height: 100px;
+    min-width: 1300px;
 }
 
 .title-h1 {
@@ -31,8 +32,9 @@ body {
 }
 
 .logo {
-    height: 400px;
+    height: 470px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 @keyframes rotate {
@@ -45,14 +47,16 @@ body {
 }
 
 .logo>img {
-    max-width: 400px;
+    max-width: 470px;
     width: 100%;
     animation: rotate 2s 1 ease-in-out;
 }
 
 .bg {
+    min-width: 1300px;
     margin: -3px 0;
-    height: 627px;
+    margin-bottom: 3px;
+    height: 723px;
     background-image: url(../img/ArrowBG.png);
     background-position: center center; 
     background-repeat: no-repeat;
@@ -132,9 +136,11 @@ body {
     margin: 15px 0;
 }
 
-.page-top {
-    margin-top: 1px;
-    border-top: 1px solid #e0e0e0;
+.page-bottom {
+    margin-bottom: 1px;
+    border-bottom: 1px solid #e0e0e0;
+    min-width: 1300px;
+    min-height: 902px;
 }
 
 .title {
@@ -210,13 +216,13 @@ body {
 
 .threed:hover {
     box-shadow:
-      1px 1px #4b00d6,
-      2px 2px #4b00d6,
-      3px 3px #4b00d6,
-      4px 4px #4b00d6,
-      5px 5px #4b00d6,
-      6px 6px #4b00d6,
-      7px 7px #4b00d6;
+      1px 1px #000000,
+      2px 2px #000000,
+      3px 3px #000000,
+      4px 4px #000000,
+      5px 5px #000000,
+      6px 6px #000000,
+      7px 7px #000000;
     -webkit-transform: translateX(-7px);
     transform: translateX(-7px);
   }
@@ -226,7 +232,6 @@ body {
 }
 
 .nav-works {
-    margin-top: -160px;
     align-items: flex-end;
 }
 
@@ -265,7 +270,7 @@ body {
 }
 
 .nav-about {
-    margin-top: 80px;
+    margin-top: 240px;
     align-items: flex-end;
 }
 
